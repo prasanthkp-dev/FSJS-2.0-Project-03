@@ -66,21 +66,17 @@ button:hover {
 }
 
 .hero-container {
-  padding: 50px 0 100px 100px;
+  padding: 50px 100px 100px 100px;
 }
 
-.hero-container .square {
+.hero-container > span:nth-child(1) {
   position: absolute;
-  top: 390px;
-  left: 230px;
+  top: 317px;
+  left: 181px;
 }
 
 .hero-container .square img {
-  max-width: 75%;
-}
-
-.hero-container .star {
-  position: absolute;
+  width: 350px;
 }
 
 /* .hero-container div>span:nth-child(2) {
@@ -91,7 +87,7 @@ button:hover {
 .hero-container .globe {
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 100px;
 }
 
 .hero-container .globe img {
@@ -100,7 +96,7 @@ button:hover {
 
 .hero-container div>img {
   position: absolute;
-  max-width: 25%;
+  width: 350px;
 }
 
 .hero-container .hero-container-right {
@@ -141,4 +137,40 @@ button:hover {
 
 .hero-container .hero-container-right div:nth-child(2) .icon span img{
   padding-right: 200px;
+}
+
+.hero-container > span:nth-child(2){
+  position: absolute;
+  top: 147px;
+  right: 118px;
+}
+
+.hero-container > span:nth-child(2) img{
+  width: 50px;
+}
+
+.hero-container > span:nth-child(3){
+  position: absolute;
+  left: 575px;
+  top: 583px;
+}
+
+.hero-container > span:nth-child(3) img{
+  width: 50px;
+}
+
+.contact-heading {
+  color: #646464;
+  font-weight: 500;
+}
+
+.hero-container-right > div:nth-of-type(2){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hero-container-right > div:nth-of-type(2) img {
+  width: 35px;
 }
